@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #474747;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60% !important;
+    background: url(img/headerBackground.jpg) center;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(157, 93, 47);
+    color: white;
+    text-decoration: none;
+    background: rgb(157, 93, 47);
+
+}
+
+.btn:hover{
+    background-color: rgb(206, 141, 94) ;
+}
+
+.btn-home{
+    display: flex;
+    
+}
+
+.btn-home a{
+    margin: 0px 10px;
+}
+
+.content{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 0px;
+    background: #1f1d1d;
+    display: block;
+    padding-bottom: 20%;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-container .box{
+    height: 20rem;
+    width: 17rem;
+    background: black;
+    text-align: center;
+    border-radius: 1rem ;
+    box-shadow: 0 .3rem  5rem rgba(0, 0, 0, 5);
+    margin: 2rem;
+}
+
+.contact{
+    padding-top: 5%;
+    background: #947d60;
+    padding-bottom: 5%;
+    display: flex;
+}
+
+.contact p{
+    padding: 1px;
+    margin: 10px;
+}
+
+h3{
+    color: rgb(142, 0, 0);
+}
+    
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 180vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+}
+
